@@ -7,6 +7,7 @@ import (
 func main() {
 	anInt := 42
 	var p = &anInt
+	fmt.Println("Pointer", p)
 	fmt.Println("Value of p", *p)
 
 	value1 := 42.13
